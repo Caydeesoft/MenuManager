@@ -1,0 +1,41 @@
+{
+    "name": "caydeesoft/menu-manager",
+    "description": "Dynamic Laravel menu manager",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Caydeesoft\\MenuManager\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Caydeesoft\\MenuManager\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Caydeesoft\\MenuManager\\Providers\\MenuManagerServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "Dennis Kiptoo Kiptugen",
+            "email": "dennis.kiptugen@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^8.2",
+        "illuminate/support": "^11.0|^12.0|^13.0",
+        "spatie/laravel-permission": "^6.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.0"
+    },
+    "scripts": {
+        "test": "phpunit"
+    }
+}

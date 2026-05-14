@@ -1,0 +1,14 @@
+# Composer dependencies
+/vendor/
+composer.lock
+
+# PHPUnit
+.phpunit.result.cache
+/coverage/
+
+# IDE - PhpStorm / IntelliJ IDEA
+/.idea/
+
+# OS Files
+.DS_Store
+Thumbs.db

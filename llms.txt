@@ -1,0 +1,29 @@
+# Menu Manager
+
+Laravel Composer package for rendering configurable menus with Blade.
+
+## Primary Docs
+
+- README.md
+- CHANGELOG.md
+- MCP.md
+
+## Source
+
+- src/Services/MenuBuilder.php
+- src/Providers/MenuManagerServiceProvider.php
+- src/config/menu-manager.php
+- src/resources/views/menu.blade.php
+- src/resources/views/partials/items.blade.php
+- src/resources/views/partials/attributes.blade.php
+
+## Tests
+
+- tests/MenuBuilderTest.php
+
+## Commands
+
+```bash
+composer install
+composer test
+```
