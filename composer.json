@@ -1,8 +1,25 @@
 {
     "name": "caydeesoft/menu-manager",
-    "description": "Dynamic Laravel menu manager",
+    "description": "Config-driven Laravel menu manager for Blade sidebar navigation, top menus, dropdowns, and permission-aware links.",
     "type": "library",
     "license": "MIT",
+    "keywords": [
+        "laravel",
+        "laravel-menu",
+        "menu-manager",
+        "sidebar",
+        "navigation",
+        "blade",
+        "dropdown-menu",
+        "permission",
+        "spatie-permission",
+        "admin-panel"
+    ],
+    "homepage": "https://github.com/caydeesoft/menu-manager",
+    "support": {
+        "issues": "https://github.com/caydeesoft/menu-manager/issues",
+        "source": "https://github.com/caydeesoft/menu-manager"
+    },
     "autoload": {
         "psr-4": {
             "Caydeesoft\\MenuManager\\": "src/"

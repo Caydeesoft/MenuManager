@@ -1,8 +1,21 @@
-# Menu Manager
+# Laravel Menu Manager
 
-Dynamic Laravel menu manager with one config file and one reusable Blade
-renderer. Menu items, HTML tags, classes, and attributes are configured from
-`config/menu-manager.php`.
+Config-driven Laravel menu manager for Blade sidebar navigation, top menus,
+dropdown menus, and permission-aware admin panel links.
+
+Menu Manager lets you define Laravel navigation menus in one config file and
+render them with one reusable Blade view. Configure menu items, named routes,
+route parameters, HTML tags, CSS classes, Font Awesome icons, dropdowns, and
+Spatie permission checks from `config/menu-manager.php`.
+
+## Features
+
+- Config-driven Laravel sidebar and top navigation menus.
+- One reusable Blade renderer for multiple menu locations.
+- Permission-aware links using Laravel authorization and Spatie permissions.
+- Dropdown menu support with configurable wrapper, toggle, and child classes.
+- Route parameters, icons, custom attributes, active classes, and raw HTML items.
+- Publishable config and views for Laravel admin panels and dashboards.
 
 ## Install
 
