@@ -13,7 +13,7 @@
 			: void
 				{
 					$this->mergeConfigFrom(
-						__DIR__ . '/../../config/menu-manager.php',
+						__DIR__ . '/../config/menu-manager.php',
 						'menu-manager'
 					);
 					
@@ -27,15 +27,15 @@
 			: void
 				{
 					$this->publishes([
-						                 __DIR__ . '/../../config/menu-manager.php' => config_path('menu-manager.php'),
+						                 __DIR__ . '/../config/menu-manager.php' => config_path('menu-manager.php'),
 					                 ], 'menu-manager-config');
 					
 					$this->publishes([
-						                 __DIR__ . '/../../resources/views' => resource_path('views/vendor/menu-manager'),
+						                 __DIR__ . '/../resources/views' => resource_path('views/vendor/menu-manager'),
 					                 ], 'menu-manager-views');
 					
 					$this->loadViewsFrom(
-						__DIR__ . '/../../resources/views',
+						__DIR__ . '/../resources/views',
 						'menu-manager'
 					);
 					
